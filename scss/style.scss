@@ -1,0 +1,142 @@
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+/* home */
+.intro-section .container .home-form {
+	.row {
+		height: unset;
+		min-height: unset;
+	}
+
+	.form-control {
+		font-size: 15px;
+		border: none;
+		-webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.28);
+		-moz-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.28);
+		box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.28);
+		outline: none;
+		letter-spacing: 1px;
+		color: #000;
+		box-sizing: border-box;
+		border-radius: 0px;
+		-webkit-border-radius: 0px;
+		-o-border-radius: 0px;
+		-ms-border-radius: 0px;
+		-moz-border-radius: 0px;
+		padding: 12px;
+	}
+
+	textarea.form-control {
+		height: 46px;
+	}
+
+	button:not(.close) {
+		background: $primary;
+		color: #fff;
+		padding: 13px 40px;
+		margin-top: 2em;
+		border: none;
+		outline: none;
+		letter-spacing: 1px;
+		font-size: 16px;
+		cursor: pointer;
+		border-radius: 0;
+		-webkit-border-radius: 0;
+		-o-border-radius: 0;
+		-ms-border-radius: 0;
+		-moz-border-radius: 0;
+	}
+}
+/* /home */
+/* contact */
+
+.done {
+	display: none;
+}
+
+.contact {
+	background: url(../images/bg1.jpg) no-repeat 0 0;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+}
+
+.contact_grid_right {
+	input[type="text"],
+	input[type="email"],
+	textarea {
+		outline: none;
+		padding: 15px 15px;
+		font-size: 14px;
+		color: #000;
+		background: #fff;
+		letter-spacing: 1px;
+		border: none;
+		border-radius: 0;
+		-webkit-border-radius: 0;
+		-o-border-radius: 0;
+		-ms-border-radius: 0;
+		-moz-border-radius: 0;
+	}
+	input[type="text"],
+	input[type="email"] {
+		height: unset;
+	}
+
+	textarea {
+		min-height: 110px;
+		resize: none;
+		width: 100%;
+	}
+
+	button:not(.close) {
+		height: unset;
+		outline: none;
+		padding: 15px 0;
+		font-size: 14px;
+		color: #fff;
+		background: $primary;
+		border: none;
+		border-radius: 0;
+		-webkit-border-radius: 0;
+		-o-border-radius: 0;
+		-ms-border-radius: 0;
+		-moz-border-radius: 0;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		-webkit-transition: 0.5s all;
+		-moz-transition: 0.5s all;
+		-o-transition: 0.5s all;
+		-ms-transition: 0.5s all;
+		transition: 0.5s all;
+		font-weight: 600;
+		cursor: pointer;
+	}
+}
+/* /contact */
+
+#courses {
+	background: #1d5987 url("../images/bg0.jpg");
+	background-size: cover;
+}
+
+@media only screen and (min-width: 576px){
+	.intro-section .container h1 {
+		font-size: 3rem;
+	}
+}
+
+
+@media only screen and (min-width: 992px){
+	.intro-section .container h1 {
+		font-size: 4rem;
+	}
+}
+/* Base */
+@import "site-base";
+/* Navbar */
+@import "site-navbar";
+/* Blocks */
+@import "site-blocks";

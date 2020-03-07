@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Обучение программированию в Тирасполе</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+  <div class="site-wrap">
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <div class="py-2 bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5">
+              <a href="#" class="d-block small px-4 py-2 rounded-0">
+             <!--   <div class="site-logo mr-3">
+                    <img src="images/logo.png" alt="Image" class="img-fluid">
+                </div> !-->
+
+                <strong><img src="images/logoschool-v1.1.png" alt="Image" class="img-fluid"> </strong>
+              </a>
+          </div>
+          <div class="col-lg-7 d-none d-lg-block text-right">
+            <a href="#" class="small mr-3"><span class="icon-map-marker mr-2"></span>г. Тирасполь, ул. Восстания 2а</a>
+            <a href="#" class="small mr-3"><span class="icon-phone2 mr-2"></span> 0 (775) 6 93 28</a>
+            <a href="#" class="small mr-3"><span class="icon-envelope-o mr-2"></span> codeschool.iti@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+      <div class="container">
+        <div class="d-flex align-items-center">
+<!--
+          <div class="site-logo">
+            <a href="#" class="d-block">
+              <img src="images/logo-s.png" alt="Image" class="img-fluid">
+            </a>
+          </div>
+-->
+          <!-- navbar -->
+          <div class="mr-auto">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block p-0">
+            <!-- Komment -- >     <li class="active">
+                  <a href="#" class="nav-link text-left">Заглавие</a>
+                </li> <!-- /Komment -->
+                <li class="has-children">
+                  <a href="#about" class="nav-link text-left">О нас</a>
+                  <ul class="dropdown">
+                    <li><a href="#teachers">Преподаватели</a></li>
+                    <li><a href="#about">Школа</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#courses" class="nav-link text-left">Курсы</a>
+                </li>
+                <li>
+                  <a href="#results" class="nav-link text-left">Результаты</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link text-left">Контакты</a>
+                  </li>
+              </ul>                                                                                                                                                                                                                                                                                          </ul>
+            </nav>
+          </div>
+          <!-- /navbar -->
+
+          <div class="ml-auto">
+            <div class="social-wrap">
+              <a href="https://vk.com/code_school_iti"><span class="icon-vk"></span></a>
+              <a href="#"><span class="icon-facebook"></span></a>
+              <a href="#"><span class="icon-telegram"></span></a>
+              <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
+                class="icon-menu h3"></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="intro-section" style="background-image: url('images/iti_1.jpg');">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-9 mx-auto text-center" data-aos="fade-up">
+            <p class="mt-3 mx-auto">для школьников 8-11 классов</p>
+            <h1 class="font-weight-bold">&lt;/Сode.School.ITI&gt;<br>Школа программирования</h1>
+            <p class="mt-3 mx-auto" id="join">
+              Учим детей программировать, создавать свои проекты, профессионально использовать программное обеспечение
+            </p>
+            <!-- form -->
+            <div class="home-form mt-5">
+              <div class="done">
+                <div class="alert alert-success text-center">
+                  <button type="button" class="close" data-dismiss="alert">×</button>
+                  Спасибо! Заявка успешно отправлена.
+                </div>
+              </div>
+              <form action="#" method="post" id="signup">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input class="form-control" type="text" name="name" placeholder="Имя" required="">
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control" type="text" name="surname" placeholder="Фамилия">
+
+
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input class="form-control" type="email" name="email" placeholder="E-mail" required="">
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control" name="phone" placeholder="Телефон" type="tel" required="">
+
+                    </div>
+                  </div>
+                </div>
+                <button type="submit" class="btn_apt btn">Записаться</button>
+              </form>
+            </div>
+            <!-- //form -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about -->
+    <section class="site-section pb-3" id="about">
+      <div class="container py-xl-4 py-lg-2">
+        <h3 class="title-w3 mb-md-5 mb-sm-4 mb-2 section-title-underline mb-3 text-center">
+          <span>О школе программирования</span>
+        </h3>
+        <div class="row">
+          <div class="col-lg-5 text-center">
+            <img src="images/network.jpg" alt="Школа программирования в Тирасполе" class="img-fluid mt-4" />
+          </div>
+          <div class="col-lg-7 pr-xl-5 mt-4 pl-lg-5">
+            <p class="sub-para">
+              Команда школы программирования - это люди объединённые одной общей идеей, дать актуальные и конкурентные
+              знания в области IT своим ученикам.</p>
+            <p class="sub-para">Эти знания позволят:</p>
+            <ul>
+              <li>поступать в ведущие вузы;</li>
+              <li>быть востребованными в IT - компаниях;</li>
+              <li>развивать информационные технологии.</li>
+            </ul>
+            <p class="sub-para pt-4 mt-4 border-top">
+              Чтобы достичь нашу цель, мы привлекаем программистов-практиков из ведущих компаний Приднестровья,
+              способных донести информацию доступно и интересно.<br>
+              Наши курсы подходят как для начинающих, так и для тех, кто хочет расширить свои знания.<br>
+              Мы стремимся создать дружелюбную атмосферу для погружения детей в увлекательный мир программирования!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /about -->
+
+    <!-- how is -->
+    <div class="section-bg style-1" style="background-image: url('images/coding-school.jpg');">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <h2 class="section-title-underline style-2 text-center text-lg-left">
+              <span>Как проходит обучение</span>
+            </h2>
+          </div>
+          <div class="col-lg-7 pl-4 pt-4 pt-lg-0">
+            <ul class="list-unstyled">
+              <li>
+                <p class="lead"><span class="icon-check mx-4"></span>группы 5-12 человек</p>
+              </li>
+              <li>
+                <p class="lead"><span class="icon-check mx-4"></span>7 месяцев обучения</p>
+              </li>
+              <li>
+                <p class="lead"><span class="icon-check mx-4"></span>экскурсии в IT-компании</p>
+              </li>
+              <li>
+                <p class="lead"><span class="icon-check mx-4"></span>оборудованные компьютерные классы</p>
+              </li>
+              <li>
+                <p class="lead"><span class="icon-check mx-4"></span>80% времени на занятии - практика</p>
+              </li>
+              <li>
+                <p class="lead"><span class="icon-check mx-4"></span>законченный проект по итогам курса</p>
+              </li>
+              <li>
+                <p class="lead"><span class="icon-check mx-4"></span>профориентация</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /how is -->
+
+    <!-- teachers -->
+    <section class="site-section" id="teachers">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center">
+          <div class="col-lg-4 mb-5">
+            <h2 class="section-title-underline mb-5">
+              <span>Наши преподаватели</span>
+            </h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
+            <div class="feature-1 border person text-center">
+              <img src="images/team_1.jpg" alt="Image" class="img-fluid">
+              <div class="feature-1-content">
+                <h2>Левицкий <br>Егор Андреевич</h2>
+                <span class="position mb-3 d-block">Android разработчик</span>
+                <p>Mobifitness</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
+            <div class="feature-1 border person text-center">
+              <img src="images/team_2.jpg" alt="Image" class="img-fluid">
+              <div class="feature-1-content">
+                <h2>Чирвина <br>Светлана Леонардовна</h2>
+                <span class="position mb-3 d-block">Дизайнер</span>
+                <p>старший преподаватель ИТИ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /teachers -->
+
+    <!-- courses -->
+    <section class="site-section section-bg style-1" id="courses">
+      <div class="container">
+        <div class="row mb-4 justify-content-center text-center">
+          <div class="col-lg-6 mb-5">
+            <h2 class="section-title-underline mb-3 style-2">
+              <span>Учебные программы</span>
+            </h2>
+            <p>Обучение в Школе программирования включает два раздела.<br>
+
+Стоимость обучения в Школе - 81,70 руб. в месяц.
+<br>
+Продолжительность обучения с октября по апрель.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
+            <div class="course-1-item bg-white">
+              <figure class="thumnail">
+               <img src="images/course_6.jpg" alt="Image" class="img-fluid">
+                <div class="category"><h3>Веб-разработка</h3></div>
+              </figure>
+              <div class="course-1-content pb-4">
+                <h2>HTML<br> CSS<br> JavaScript</h2>
+                <div class="rating text-center mb-3">
+                  <span class="icon-star2 text-warning"></span>
+                  <span class="icon-star2 text-warning"></span>
+                  <span class="icon-star2 text-warning"></span>
+                  <span class="icon-star2 text-warning"></span>
+                  <span class="icon-star2 text-warning"></span>
+                </div>
+                <p class="desc mb-4 text-black">Освоение популярных средств разработки для создания статических и динамических веб-страниц. </p><br>
+                <!--
+                <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
+                -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
+            <div class="course-1-item bg-white">
+              <figure class="thumnail">
+                <img src="images/course_5.jpg" alt="Image" class="img-fluid">
+                <div class="category"><h3>Компьютерная графика</h3></div>
+              </figure>
+              <div class="course-1-content pb-4">
+                <h2>Работа с редакторами векторной и растровой графики</h2>
+                <div class="rating text-center mb-3">
+                  <span class="icon-star2 text-warning"></span>
+                  <span class="icon-star2 text-warning"></span>
+                  <span class="icon-star2 text-warning"></span>
+                  <span class="icon-star2 text-warning"></span>
+                  <span class="icon-star2 text-warning"></span>
+                </div>
+                <p class="desc mb-4 text-black">Компьютерная графика. <br>Создание сложных рисунков. <br>Подвижные рисунки. <br>Изучение графических редакторов.</p>
+                <!--
+                <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
+                -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <div class="site-section" id="testimonials">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-4">
+            <h2 class="section-title-underline">
+              <span>Фотогалерея</span>
+            </h2>
+          </div>
+        </div>
+
+
+        <div class="owl-slide owl-carousel">
+
+          <div class="ftco-testimonial-1">
+              <img src="images/foto_1.jpg" alt="Image" class="img-fluid mr-3">
+          </div>
+
+          <div class="ftco-testimonial-1">
+              <img src="images/foto_2.jpg" alt="Image" class="img-fluid mr-3">
+          </div>
+
+          <div class="ftco-testimonial-1">
+              <img src="images/foto_3.jpg" alt="Image" class="img-fluid mr-3">
+          </div>
+
+          <div class="ftco-testimonial-1">
+              <img src="images/foto_4.jpg" alt="Image" class="img-fluid mr-3">
+          </div>
+          <div class="ftco-testimonial-1">
+              <img src="images/foto_5.jpg" alt="Image" class="img-fluid mr-3">
+          </div>
+          <div class="ftco-testimonial-1">
+              <img src="images/foto_6.jpg" alt="Image" class="img-fluid mr-3">
+          </div>
+          <div class="ftco-testimonial-1">
+              <img src="images/foto_7.jpg" alt="Image" class="img-fluid mr-3">
+          </div>
+          <div class="ftco-testimonial-1">
+              <img src="images/foto_8.jpg" alt="Image" class="img-fluid mr-3">
+          </div>
+          <div class="ftco-testimonial-1">
+              <img src="images/foto_9.jpg" alt="Image" class="img-fluid mr-3">
+          </div>
+          <div class="ftco-testimonial-1">
+              <img src="images/foto_10.jpg" alt="Image" class="img-fluid mr-3">
+          </div>
+      </div>
+    </div>
+    <! -- /Testimonials -->
+
+    <!-- Philosophy -- >
+    <div class="section-bg style-1" style="background-image: url('images/hero_1.jpg');">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+            <span class="icon flaticon-mortarboard"></span>
+            <h3>Our Philosphy</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea? Dolore, amet reprehenderit.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+            <span class="icon flaticon-school-material"></span>
+            <h3>Academics Principle</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
+              Dolore, amet reprehenderit.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+            <span class="icon flaticon-library"></span>
+            <h3>Key of Success</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
+              Dolore, amet reprehenderit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <! -- Philosophy -->
+
+    <!-- results -->
+    <div class="site-section" id="results">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center">
+          <div class="col-lg-4 mb-5">
+            <h2 class="section-title-underline mb-5">
+              <span>Результаты обучения</span>
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+
+            <div class="feature-1 border">
+              <div class="icon-wrapper bg-primary">
+                <span class="flaticon-mortarboard text-white"></span>
+              </div>
+              <div class="feature-1-content">
+                <h2>Диплом и подарки</h2>
+                <p>По окончании обучения вы получите сертфикаты об окончании и подарки от партнёров школы программирования.</p>
+                <!--
+                <p><a href="#" class="btn btn-primary px-4 rounded-0">Подробнее</a></p>
+                -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <div class="feature-1 border">
+              <div class="icon-wrapper bg-primary">
+                <span class="flaticon-school-material text-white"></span>
+              </div>
+              <div class="feature-1-content">
+                <h2>Новые навыки</h2>
+                <p>
+                  Вы получите новые знания и навыки, опыт командной работы. Научитесь разбивать сложные задачи на
+                  последовательность простых.
+                </p>
+                <!--
+                <p><a href="#" class="btn btn-primary px-4 rounded-0">Подробнее</a></p>
+                -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <div class="feature-1 border">
+              <div class="icon-wrapper bg-primary">
+                <span class="flaticon-library text-white"></span>
+              </div>
+              <div class="feature-1-content">
+                <h2>Готовые проекты</h2>
+                <p>Вы создадите свои проекты (игры, сайты, программы, анимации и др.), которые сможете представить в своём портфолио.</p>
+                <!--
+                <p><a href="#" class="btn btn-primary px-4 rounded-0">Подробнее</a></p>
+                -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /results -->
+
+    <!-- map -->
+    <section class="site-section py-0">
+      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1e13796278467e5c112c7f93e470f42a6f66b6841354ff65c307e1bada9e769b&amp;width=100%25&amp;height=450&amp;lang=ru_RU&amp;scroll=true"></script>
+    </section>
+    <!-- /map -->
+
+    <!-- contact-->
+    <section class="contact py-5" id="contact">
+      <div class="container py-xl-5 py-lg-3">
+        <h2 class="section-title-underline style-2 mb-sm-5 mb-4 text-center">
+            <span>Напишите нам</span>
+        </h2>
+        <div class="contact_grid_right pt-4">
+          <div class="done">
+            <div class="alert alert-success text-center">
+              <button type="button" class="close" data-dismiss="alert">×</button>
+              Спасибо! Ваше сообщение успешно отправлено.
+            </div>
+          </div>
+          <form action="#" method="post" id="message">
+
+            <div class="row contact_left_grid">
+              <div class="col-lg-6 con-left" data-aos="fade-up">
+                <div class="form-group">
+                  <input class="form-control" type="text" name="name" placeholder="Имя" required="">
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="email" name="email" placeholder="Email адрес" required="">
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="text" name="subject" placeholder="Тема" required="">
+                </div>
+              </div>
+              <div class="col-lg-6 con-right" data-aos="fade-up">
+                <div class="form-group">
+                  <textarea id="textarea" name="comment" placeholder="Текст сообщения" required=""></textarea>
+                </div>
+                <div class="sub-honey">
+                  <button class="form-control btn" type="submit">Отправить</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- //contact -->
+  </div>
+  <!-- .site-wrap -->
+
+  <!-- loader -->
+  <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#478cce"/></svg></div>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.mb.YTPlayer.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>
